@@ -11,7 +11,7 @@ app.engine('haml', engines.haml);
 app.set('view engine', 'haml');
 app.use('/views',express.static(__dirname + '/views'));
 app.use('/css',express.static(__dirname + '/css'));
-// app.use('/js',express.static(__dirname + '/js'));
+app.use('/js',express.static(__dirname + '/js'));
 
 
 app.get('/', function (req, res) {

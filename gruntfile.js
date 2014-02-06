@@ -57,7 +57,7 @@ module.exports = function(grunt) {
 	// grunt.loadNpmTasks('grunt-contrib-uglify');
 	// grunt.loadNpmTasks('grunt-express');
 	grunt.loadNpmTasks('grunt-contrib-sass');
-	grunt.loadNpmTasks('grunt-contrib-haml');
+	// grunt.loadNpmTasks('grunt-contrib-haml');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-modernizr');
 	
@@ -65,6 +65,6 @@ module.exports = function(grunt) {
 	// 	grunt.task.run(['express:livereload','watch']);
 	// });
 	grunt.registerTask('server', ['express','express-keepalive']);
-	grunt.registerTask('default', ['watch','haml']);
+	grunt.registerTask('default', ['watch']);
 
 };
