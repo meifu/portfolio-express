@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "grunt": "*",
+    "consolidate": "*",
+    "hamljs": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.x",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-express": "1.2.x",
+    "grunt-express-server": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-modernizr": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-nodemon": "~0.1.0",
+    "socket.io": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
