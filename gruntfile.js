@@ -46,11 +46,11 @@ module.exports = function(grunt) {
 			css: {
 				files: 'sass/*.scss',
 				tasks: ['sass']
-			},
-			haml: {
-				files: ['views/*.haml'],
-				tasks: ['haml']
 			}
+			// ,haml: {
+			// 	files: ['views/*.haml'],
+			// 	tasks: ['haml']
+			// }
 		}
 	});
 

@@ -11,5 +11,33 @@
     %link{ rel: "stylesheet", href: "css/main.css"}
     %script{ src: "/js/modernizr.js"}
   %body
-    %h1 Hello
+    %div.container.clearfix
+      %div#side.three
+        %h1#logo
+          %a.hide-text May's portfolio
+        %h2#name May Kuo
+        %nav
+          %ul
+            %li
+              %a.link{ href: "#"}
+                %span.active
+                  %span.valign
+                    %span.vertical Works
+                %span.hover
+                  %span.valign
+                    %span.vertical Works
+            %li
+              %a.link{href: "#"}
+                %span.active
+                  %span.valign
+                    %span.vertical About
+                %span.hover
+                  %span.valign
+                    %span.vertical About
+      %div#mainContent.seven
+        %div.workBlock.five
+          %img{ src: "img/shokay.jpg", alt: "Shokay"}
+          %div.overlay
+            %p wordpress template and structure, css style and javascript
+
 != "</html>"
